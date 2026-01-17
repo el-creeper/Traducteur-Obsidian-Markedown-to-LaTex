@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[french]{babel}
+\usepackage{xcolor}
+\usepackage{fontawesome5}*
+\usepackage[most]{tcolorbox}
+\tcbset{
+    obsidianstyle/.style={
+        enhanced,
+        breakable,          % Permet de couper la boite entre les pages
+        frame hidden,       % Cache le cadre par défaut
+        borderline west={4pt}{0pt}{#1}, % La ligne épaisse à gauche
+        colback=#1!10!white,% Fond : couleur passée en paramètre à 10% d'opacité
+        coltitle=#1,        % Couleur du titre
+        fonttitle=\bfseries\sffamily, % Police du titre
+        attach box title to top left={yshift=-2mm, xshift=0mm}, % Position du titre
+        boxrule=0pt,        % Pas de bordure classique
+        arc=2pt,            % Coins légèrement arrondis
+        left=6mm, right=2mm, top=2mm, bottom=2mm, % Marges internes
+    }
+}
+
+
+\title{Obsidian to latex base}
+\author{FLS Creeper}
+\date{January 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\end{document}

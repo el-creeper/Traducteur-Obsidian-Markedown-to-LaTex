@@ -1,0 +1,130 @@
+{
+  "callouts": {
+    "custom": [
+      "note",
+      "abstract",
+      "info",
+      "todo",
+      "tip",
+      "success",
+      "question",
+      "warning",
+      "failure",
+      "danger",
+      "bug",
+      "example",
+      "quote"
+    ],
+    "settings": {
+      "note": [
+        {
+          "changes": {
+            "icon": "lucide-pencil",
+            "color": "68, 138, 255"
+          }
+        }
+      ],
+      "abstract": [
+        {
+          "changes": {
+            "icon": "lucide-clipboard-list",
+            "color": "0, 176, 255"
+          }
+        }
+      ],
+      "info": [
+        {
+          "changes": {
+            "icon": "lucide-info",
+            "color": "0, 184, 212"
+          }
+        }
+      ],
+      "todo": [
+        {
+          "changes": {
+            "icon": "lucide-check-circle-2",
+            "color": "0, 184, 212"
+          }
+        }
+      ],
+      "tip": [
+        {
+          "changes": {
+            "icon": "lucide-flame",
+            "color": "0, 191, 165"
+          }
+        }
+      ],
+      "success": [
+        {
+          "changes": {
+            "icon": "lucide-check",
+            "color": "0, 200, 83"
+          }
+        }
+      ],
+      "question": [
+        {
+          "changes": {
+            "icon": "lucide-help-circle",
+            "color": "255, 168, 0"
+          }
+        }
+      ],
+      "warning": [
+        {
+          "changes": {
+            "icon": "lucide-alert-triangle",
+            "color": "255, 145, 0"
+          }
+        }
+      ],
+      "failure": [
+        {
+          "changes": {
+            "icon": "lucide-x",
+            "color": "255, 82, 82"
+          }
+        }
+      ],
+      "danger": [
+        {
+          "changes": {
+            "icon": "lucide-zap",
+            "color": "255, 23, 68"
+          }
+        }
+      ],
+      "bug": [
+        {
+          "changes": {
+            "icon": "lucide-bug",
+            "color": "245, 0, 87"
+          }
+        }
+      ],
+      "example": [
+        {
+          "changes": {
+            "icon": "lucide-list",
+            "color": "124, 77, 255"
+          }
+        }
+      ],
+      "quote": [
+        {
+          "changes": {
+            "icon": "lucide-quote",
+            "color": "158, 158, 158"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}
